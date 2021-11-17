@@ -13,7 +13,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Render document
-        uses: erikarasnick/rmarkdown-action
+        uses: erikarasnick/rmarkdown-action@master
         with:
           input_file: README.Rmd
           output_format: html_document
